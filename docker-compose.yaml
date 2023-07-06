@@ -1,0 +1,3 @@
+services:
+  ianseo-extension:
+    image: ${DESKTOP_PLUGIN_IMAGE}
