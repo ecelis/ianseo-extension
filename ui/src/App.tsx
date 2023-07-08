@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '@mui/material/Button';
+import Link from '@mui/material/Link';
 import { createDockerDesktopClient } from '@docker/extension-api-client';
 import { Stack, TextField, Typography } from '@mui/material';
 
@@ -19,9 +20,20 @@ export function App() {
     <>
       <Typography variant="h3">Arqueria Desktop Extension</Typography>
       <Typography variant="body1" color="text.secondary" sx={{ mt: 2 }}>
-        Ianseo archery tournaments management software in the desktop.
-        This is a wrapper to run easily the software cross-platform, the
-        project is not officially related to Ianseo.
+        {`The extension allows Ianseo archery tournaments management software
+        to run in a docker desktop runtime environment.
+
+        The goal is to present a simple and unified way to run the software
+        cross-platform.
+
+        Go ahead and endjoy the shooting! 🎯 Your Ianseo is at ➡️ ${<Link href="http://localhost:8080">Ianseo</Link>} ⬅️
+
+        This work builds on top of other people work, the open source community
+        but specially the ${<Link href="https://ianseo.net">Ianseo Team</Link>}
+
+        ${<Link href="https://ianseo.net/Releases.php">Ianseoo Documentation</Link>}
+
+        Arqueria desktop extension ${<Link href="https://ianseo.arqueria.pro">website</Link>}`}
       </Typography>
     </>
   );
