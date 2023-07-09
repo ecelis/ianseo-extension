@@ -21,7 +21,7 @@ LABEL org.opencontainers.image.title="arqueria desktop" \
     com.docker.extension.publisher-url="https://ianseo.arqueria.pro" \
     com.docker.extension.additional-urls="" \
     com.docker.extension.categories="cloud-deployment" \
-    com.docker.extension.changelog="Run ianseo as docker desktop extension"
+    com.docker.extension.changelog="Run ianseo in docker desktop"
 
 # COPY --from=builder /backend/bin/service /
 COPY docker-compose.yaml .
