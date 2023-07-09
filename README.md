@@ -1,13 +1,13 @@
-# Arqueria Docker Desktop Extension
+# 🏹 Arqueria Docker 🐳 Desktop Extension
 
-The extension allows Ianseo archery tournaments management software
+The extension allows 🎯[Ianseo](https://ianseo.net)🎯 archery tournaments management software
 to run in a docker desktop runtime environment.
 
 The goal is to present a simple and unified way to run the software
 cross-platform.
 
 This work builds on top of other people work, the open source community
-but specially the Ianseo Team https://ianseo.net
+but specially the [Ianseo Team](https://ianseo.net)
 
 
 ## Local development
