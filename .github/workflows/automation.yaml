@@ -67,7 +67,7 @@ jobs:
         with:
           images: |
             ecelis/arqueria-desktop
-            ghcr.io/${{ github.repository }}
+            ghcr.io/${{ github.repository.owner }}/arqueria-desktop
       - name: Build and Push Docker Images
         id: publish
         uses: docker/build-push-action@v2
