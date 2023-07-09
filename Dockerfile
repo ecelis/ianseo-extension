@@ -11,7 +11,7 @@ COPY ui /ui
 RUN npm run build
 
 FROM alpine
-LABEL org.opencontainers.image.title="arqueria desktop" \
+LABEL org.opencontainers.image.title="arqueria-desktop" \
     org.opencontainers.image.description="Software for managing archery tournaments" \
     org.opencontainers.image.vendor="Ernesto Celis" \
     com.docker.desktop.extension.api.version="0.3.4" \

@@ -24,24 +24,25 @@ export function App() {
         Arqueria Desktop Extension</Typography>
       <Typography variant="body1" color="text.secondary" sx={{ mt: 2 }}>
         <p>The extension allows Ianseo archery tournaments management software
-        to run in a docker desktop runtime environment.</p>
-
-        <p>The goal is to present a simple and unified way to run the software
-        cross-platform.</p>
+        to run in a docker desktop runtime environment. The goal is to present
+        a simple and unified way to run the software cross-platform.</p>
 
         <p>Go ahead and endjoy the shooting! 🎯 Your Ianseo is at ➡️ 
         <Link href={ianseoUrl}>{ianseoUrl}</Link> ⬅️ </p>
 
+      </Typography>
+      <iframe width="100%" height="400px"
+      src={ianseoUrl}
+      sandbox="allow-scripts allow-modal"></iframe>
+      <Typography variant="body1" color="text.secondary" sx={{ mt: 2 }}>
         <p>It builds on top of other people work, the open source community
         and specially the <Link href="https://ianseo.net">Ianseo Team</Link></p>
 
         <p><Link href="https://ianseo.net/Releases.php">Ianseo Documentation</Link></p>
 
         <p>Arqueria desktop extension <Link href="https://ianseo.arqueria.pro">website</Link></p>
+
       </Typography>
-      <iframe width="100%" height="400px"
-      src={ianseoUrl}
-      sandbox="allow-scripts allow-modal"></iframe>
     </>
   );
 }

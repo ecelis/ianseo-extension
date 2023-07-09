@@ -1,4 +1,4 @@
-IMAGE?=ecelis/ianseo-extension
+IMAGE?=ecelis/arqueria-desktop
 TAG?=latest
 
 BUILDER=buildx-multi-arch

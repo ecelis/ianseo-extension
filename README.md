@@ -1,4 +1,4 @@
-# ianseo Docker Desktop Extension
+# Arqueria Docker Desktop Extension
 
 The extension allows Ianseo archery tournaments management software
 to run in a docker desktop runtime environment.
@@ -17,13 +17,13 @@ You can use `docker` to build, install and push your extension. Also, we provide
 To build the extension, use `make build-extension` **or**:
 
 ```shell
-  docker buildx build -t ecelis/ianseo-extension:latest . --load
+  docker buildx build -t ecelis/arqueria-desktop:latest . --load
 ```
 
 To install the extension, use `make install-extension` **or**:
 
 ```shell
-  docker extension install ecelis/ianseo-extension:latest
+  docker extension install ecelis/arqueria-desktop:latest
 ```
 
 > If you want to automate this command, use the `-f` or `--force` flag to accept the warning message.
@@ -46,19 +46,19 @@ This starts a development server that listens on port `3000`.
 You can now tell Docker Desktop to use this as the frontend source. In another terminal run:
 
 ```shell
-  docker extension dev ui-source ecelis/ianseo-extension:latest http://localhost:3000
+  docker extension dev ui-source ecelis/arqueria-desktop:latest http://localhost:3000
 ```
 
 In order to open the Chrome Dev Tools for your extension when you click on the extension tab, run:
 
 ```shell
-  docker extension dev debug ecelis/ianseo-extension:latest
+  docker extension dev debug ecelis/arqueria-desktop:latest
 ```
 
 Each subsequent click on the extension tab will also open Chrome Dev Tools. To stop this behaviour, run:
 
 ```shell
-  docker extension dev reset ecelis/ianseo-extension:latest
+  docker extension dev reset ecelis/arqueria-desktop:latest
 ```
 
 ### Clean up
@@ -66,6 +66,6 @@ Each subsequent click on the extension tab will also open Chrome Dev Tools. To s
 To remove the extension:
 
 ```shell
-docker extension rm ecelis/ianseo-extension:latest
+docker extension rm ecelis/arqueria-desktop:latest
 ```
 
