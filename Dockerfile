@@ -16,12 +16,12 @@ LABEL org.opencontainers.image.title="arqueria desktop" \
     org.opencontainers.image.vendor="Ernesto Celis" \
     com.docker.desktop.extension.api.version="0.3.4" \
     com.docker.extension.screenshots="[{\"alt\": \"arqueria desktop\",\"url\": \"https://ianseo.arqueria.pro/assets/images/arqueria-de_light_1.png\"}]" \
-    com.docker.desktop.extension.icon="" \
+    com.docker.desktop.extension.icon="https://ianseo.arqueria.pro/assets/images/arqueria.svg" \
     com.docker.extension.detailed-description="Make supereasy to run I@nseo across platforms" \
     com.docker.extension.publisher-url="https://ianseo.arqueria.pro" \
     com.docker.extension.additional-urls="" \
-    com.docker.extension.categories="" \
-    com.docker.extension.changelog=""
+    com.docker.extension.categories="cloud-deployment" \
+    com.docker.extension.changelog="Run ianseo as docker desktop extension"
 
 # COPY --from=builder /backend/bin/service /
 COPY docker-compose.yaml .
