@@ -63,7 +63,7 @@ export function App() {
       </TableContainer>
       <Typography variant="body1" sx={{mb: 2 }}>Go ahead and endjoy the shooting! 🎯 Your Ianseo is at
       ➡️ <Link href={ianseoUrl}>{ianseoUrl}</Link>⬅️  <span onClick={copyTextToClipboard}>📋</span> </Typography>
-      <img styles={{ marginTop: 8 }}  width="400px" src="db.png" alt="Database settings" />
+      <img width="400px" src="db.png" alt="Database settings" />
       <Typography variant="body1" color="text.secondary" sx={{ mt: 2 }}>
         <p>It builds on top of other people work, the open source community
         and specially the <Link href="https://ianseo.net">Ianseo Team</Link></p>
